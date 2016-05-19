@@ -1,10 +1,6 @@
 //META{"name":"Full_Light_Theme","description":"Most or all parts of Discord changed to a lighter way! _ _ _ _ _ _ _ _ Note: Have your Appearance set to 'Light' when using this theme.","author":"maple","version":"1.00"}*//
 
-.links, #friends .friends-table .friends-table-header .friends-column-separator, #friends 
-
-.friends-column-separator, .app button[data-reactid=".0.1.1.0.2.0.2.3"],  .header-
-
-toolbar button:last-of-type {
+.links {
     display: none;
 }
 
@@ -100,6 +96,10 @@ inner:after {
 
 .message-group a {
     color: #00B0F4 !important;
+}
+
+.tab-bar-item {
+    color: #FFF !important;
 }
 
 /* very messy */
