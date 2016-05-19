@@ -1,5 +1,13 @@
 //META{"name":"Full_Light_Theme","description":"Most or all parts of Discord changed to a lighter way! _ _ _ _ _ _ _ _ Note: Have your Appearance set to 'Light' when using this theme.","author":"maple","version":"1.00"}*//
 
+.tab-bar-item {
+    color: #FFF !important;
+}
+
+.tab-bar-item.bd-tab {
+    color: #7289da !important
+}
+
 .links {
     display: none;
 }
