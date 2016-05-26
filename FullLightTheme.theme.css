@@ -4,7 +4,7 @@ changed to a lighter way! _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 _ _ _ _ _ Note: Have your Appearance set to 'Light' when using this 
 
-theme.","author":"maple","version":"1.12"}*//
+theme.","author":"maple","version":"1.13"}*//
 
 .tab-bar-item {
     color: #FFF !important;
@@ -142,6 +142,11 @@ theme.","author":"maple","version":"1.12"}*//
 .search-bar input {
     border: none !important;
     box-shadow: none !important;
+}
+
+.markup {
+    padding-top: 2px;
+    padding-left: 8px;
 }
 
 /* very messy */
