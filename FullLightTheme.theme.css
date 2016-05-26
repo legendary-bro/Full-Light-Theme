@@ -4,7 +4,7 @@ changed to a lighter way! _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 _ _ _ _ _ Note: Have your Appearance set to 'Light' when using this 
 
-theme.","author":"maple","version":"1.10"}*//
+theme.","author":"maple","version":"1.12"}*//
 
 .tab-bar-item {
     color: #FFF !important;
@@ -14,7 +14,7 @@ theme.","author":"maple","version":"1.10"}*//
     color: #7289da !important
 }
 
-.links {
+.links, .search-bar-clear {
     display: none;
 }
 
@@ -137,6 +137,11 @@ theme.","author":"maple","version":"1.10"}*//
 
 .message-group a {
     color: #00B0F4 !important;
+}
+
+.search-bar input {
+    border: none !important;
+    box-shadow: none !important;
 }
 
 /* very messy */
