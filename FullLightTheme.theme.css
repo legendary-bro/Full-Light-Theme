@@ -1,11 +1,13 @@
-//META{"name":"Full_Light_Theme","description":"_ _Most or all parts of Discord changed to a lighter way! _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Note: Have your Appearance set to 'Light' when using this theme.","author":"maple","version":"1.13"}*//{}
+//META{"name":"Full_Light_Theme","description":"Most or all parts of Discord changed to a lighter way Note: Have your Appearance set to 'Light' when using this theme.","author":"maple","version":"1.12"}*//{}
 
-.tab-bar-item {
+.tab-bar-item, .chat>.title-wrap>.title, 
+.chat>.title-wrap>.title .channel-name,
+.channel-textarea-inner textarea {
     color: #FFF !important;
 }
 
 .tab-bar-item.bd-tab {
-    color: #7289da !important
+    color: #7289da !important;
 }
 
 .links, .search-bar-clear {
@@ -23,7 +25,9 @@
     border: 1px solid #888;
 }
 
-.guild-inner a, .tab-bar.SIDE, .guilds-add {
+.guild-inner a, .tab-bar.SIDE, 
+.guilds-wrapper .guild-separator:after,
+.guilds-wrapper .guilds .guild+.guilds-add {
     background: #888;
 }
 
@@ -37,9 +41,8 @@
 
 .guild-header header, 
 .guild-header header:hover, 
-.guild-header.guild-header ul, 
-
-.search-bar, #friends .friends-header {
+.guild-header.guild-header ul, .search-bar, #friends .friends-header,
+#voice-connection {
     background: #9E9E9E;
     box-shadow: none;
 }
@@ -48,7 +51,7 @@
     opacity: .6;
 }
 
-.account {
+.account, #voice-connection {
     background: #9E9E9E;
     border-top: none;
 }
@@ -72,20 +75,28 @@
 }
 
 .channel.channel-text.unread:before, 
-.guilds-wrapper .guilds .guild.unread:before {
-    border: 1px solid #7D7D7D !important;
-    background: #FFF;
+.guilds-wrapper .guilds .guild.unread:before,
+.guilds-wrapper .guilds .guild.selected:before,
+.guild-channels .channel-text:before  {
+    border: 1px solid #FFF !important;
+    background: #7289EA !important;
+}
+
+.guild-channels .channel-text:hover.channel-muted:before, 
+.guild-channels .channel-text:hover:not(.unread):before {
+    border-left: 2px solid #7289da !important;
 }
 
 .btn-mute, .btn-deafen, .btn-settings {
     background: none !important;
 }
 
-.btn-mute, .btn-deafen, .channel-textarea-upload {
+.btn-mute, .btn-deafen, .channel-textarea-upload,
+#voice-connection .btn-info {
     border-right: 1px solid #ADADAD !important;
 }
 
-.btn-deafen, .btn-settings {
+.btn-deafen, .btn-settings, #voice-connection .btn-disconnect {
     box-shadow: none !important;
 }
 
@@ -93,13 +104,14 @@
     background: #D4D4D4 !important;
 }
 
-.channel-textarea-inner, textarea {
+.channel-textarea-inner {
     background: #9E9E9E;
     color: #fff !important;
 }
 
 .channel-textarea-autocomplete-inner header, 
-.channel-textarea-autocomplete-inner:after {
+.channel-textarea-autocomplete-inner:after,
+.title-wrap {
     border-bottom: none;
 }
 
@@ -107,10 +119,7 @@
     background: #ADADAD;
     border: 3px solid #BDBDBD;
 }
-    
-.topic {
-    color: #FFF !important;
-}
+
 .channel:not(.selected):hover.channel:not(.selected):hover a, 
 .guild-channels .channel-text.unread:not(.selected):not(.channel-muted):hover, 
 .guild-channels .channel-text.unread:not(.selected) .channel-name:hover {
@@ -138,9 +147,18 @@
     box-shadow: none !important;
 }
 
+.user-popout .body .notes textarea {
+    color: #484848 !important;
+}
+
 .markup {
+    color: #484848 !important;
     padding-top: 2px;
     padding-left: 8px;
+}
+
+#voice-connection .btn, .channel-textarea-inner textarea {
+    background-color: transparent;
 }
 
 /* very messy */
