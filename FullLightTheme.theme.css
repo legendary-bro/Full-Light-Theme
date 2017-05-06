@@ -1,6 +1,6 @@
-//META{"name":"Full_Light_Theme","description":"Most or all parts of Discord changed to a lighter way Note: Have your Appearance set to 'Light' when using this theme.","author":"maple","version":"2.01"}*//{}
+//META{"name":"Full_Light_Theme","description":"Most or all parts of Discord changed to a lighter way Note: Have your Appearance set to 'Light' when using this theme.","author":"maple","version":"2.02"}*//{}
 
-.channel .channel-name,.guild-channels header,.app .guilds .friends-online {color:#8a8e94;}
+.channel span,.guild-channels header,.app .guilds .friends-online {color:#8a8e94;}
 .app .guild-inner,.guilds-wrapper .guild-separator:after{background:#ccc!important;transition:background .1s;;}
 .app .guild:hover .guild-inner{background:rgb(114,137,218)!important;}
 .guild-channels,.private-channels,#rtc-connection .btn:active {background: #ebebeb !important;}
@@ -22,7 +22,7 @@
 .scroller-wrap .channel-members::-webkit-scrollbar-thumb {border:3px solid #f3f3f3!important;}
 .channel:not(.selected):hover.channel:not(.selected):hover a, .guild-channels .channel-text.unread:not(.selected):not(.channel-muted):hover, .guild-channels .channel-text.unread:not(.selected) .channel-name:hover,#rtc-connection .btn-disconnect:after,#rtc-connection .btn-info:after,.channel:hover .channel-name,.account .btn-settings:after {opacity:1!important;}
 .guild-channels .channel-text.unread:not(.selected) .channel-name {opacity: .5;}
-.guild-channels .channel a {opacity: .65;}
+.guild-channels .channel a,#rtc-connection .rtc-connection-channel:hover {opacity: .65;}
 .search-bar .search-bar-inner{background:#fdfdfd;}
 .search-bar [placeholder] {filter:brightness();}
 .channels-wrap .btn {background-color: unset!important;}
