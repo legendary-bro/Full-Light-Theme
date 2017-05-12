@@ -32,7 +32,7 @@
 .private-channels .channel .icon-friends {background-color:#000;filter:invert(.76);opacity:.5}
 .private-channels .channel:hover .icon-friends {background-color:#444;}
 .guild-header span, .title-wrap .topic,#rtc-connection .rtc-connection-channel,.account {text-shadow: 1px 1px 1px rgba(30,30,38,.1);}
-.guild-header span,#rtc-connection .rtc-connection-channel,.account,.guilds-wrapper .guilds .guild:not(:hover) .guild-inner a,.private-channels .channel a div {color:#4f545c!important;}
+.guild-header span,#rtc-connection .rtc-connection-channel,.account,.guilds-wrapper .guilds .guild:not(:hover) .guild-inner a,.private-channels .channel a div:not(.badge) {color:#4f545c!important;}
 .guilds-wrapper .guilds .friends-icon:before {content:'';display:block;width:100%;height:100%;background:inherit;transition:.1s;pointer-events:none;}
 .guilds .guild:not(:hover) .friends-icon:before{filter:invert(.6);}
 .search-bar,#friends .friends-header,.guild-header header,.guild-header header:hover,.account, #rtc-connection,.guild-header.popout-open header {background: #e4e4e4;}
