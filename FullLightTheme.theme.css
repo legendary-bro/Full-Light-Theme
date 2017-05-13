@@ -1,6 +1,6 @@
-//META{"name":"Full_Light_Theme","description":"Most or all parts of Discord changed to a lighter way Note: Have your Appearance set to 'Light' when using this theme.","author":"maple","version":"2.03"}*//{}
+//META{"name":"Full_Light_Theme","description":"Most or all parts of Discord changed to a lighter way Note: Have your Appearance set to 'Light' when using this theme.","author":"maple","version":"2.04"}*//{}
 
-.channel span,.guild-channels header,.app .guilds .friends-online {color:#8a8e94!important;}
+.channel span,.guild-channels header,.app .guilds .friends-online,.private-channels header {color:#8a8e94!important;}
 .app .guild-inner,.guilds-wrapper .guild-separator:after{background:#ccc!important;transition:background .1s;;}
 .app .guild:hover .guild-inner{background:rgb(114,137,218)!important;}
 .guild-channels,.private-channels,#rtc-connection .btn:active {background: #ebebeb !important;}
