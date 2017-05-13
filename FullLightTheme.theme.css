@@ -1,6 +1,6 @@
 //META{"name":"Full_Light_Theme","description":"Most or all parts of Discord changed to a lighter way Note: Have your Appearance set to 'Light' when using this theme.","author":"maple","version":"2.04"}*//{}
 
-.channel span,.guild-channels header,.app .guilds .friends-online,.private-channels header {color:#8a8e94!important;}
+.channel span,.guild-channels header,.guild-channels .toggle-muted-text-channels a,.app .guilds .friends-online,.private-channels header,.guild-channels .toggle-muted-text-channels a {color:#8a8e94!important;}
 .app .guild-inner,.guilds-wrapper .guild-separator:after{background:#ccc!important;transition:background .1s;;}
 .app .guild:hover .guild-inner{background:rgb(114,137,218)!important;}
 .guild-channels,.private-channels,#rtc-connection .btn:active {background: #ebebeb !important;}
@@ -9,7 +9,7 @@
 .scroller-wrap .channel:hover,.scroller-wrap .channel.selected {background: -webkit-linear-gradient(left,#dedede 85%,#ebebeb);}
 .private-channels .channel:hover .status,.private-channels .channel.selected .status {border-color:#dedede;}
 .btn-group {border: 1px solid #fbfbfb !important;background:#eee;}
-.account .btn-settings:after,.private .close,#rtc-connection .btn-disconnect:after,#rtc-connection .btn-info:after,.channel-arrow,.guild-channels .icon, .guild-channels button{filter:invert(66%);}
+.account .btn-settings:after,.private .close,#rtc-connection .btn-disconnect:after,#rtc-connection .btn-info:after,.channel-arrow,.guild-channels .icon, .guild-channels button,.guild-channels .toggle-muted-text-channels a:before{filter:invert(66%);}
 .channels-wrap .btn-group .btn:not(.btn-mute):not(.btn-deafen):hover {opacity:.4}
 .channel-arrow:hover{background-color:rgba(0,0,0,.4)!important;}
 .guilds-wrapper .guilds .guild.unread:before,.guilds-wrapper .guilds .guild.selected:before,.guild-channels .channel-text:before {background: #ccc !important;}
