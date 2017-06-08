@@ -5,7 +5,7 @@
 .app .guild:hover .guild-inner,.guilds-wrapper .guilds-add:hover{background:rgb(114,137,218)!important;}
 .channels-wrap > [class*="container-"]:first-of-type,.private-channels {background: #ebebeb !important;}
 .channels-wrap > [class*="container"]:first-of-type header,.search-bar {box-shadow:none!important;}
-.channels-wrap > [class*="container-"] {border-color:#f3f3f3;}
+.channels-wrap > [class*="container-"] {border-color:#f3f3f3;margin-bottom:0;}
 .channels-wrap > [class*="container-"] [class*="button"] {filter:invert() hue-rotate(180deg) saturate(400%);}
 .channels-wrap > [class*="container-"] [class*="button"]:hover {background-color:rgba(120,120,120,.3);}
 .channels-wrap > [class*="container-"] [class*="button"]:active {background-color:rgba(100,100,100,.3);}
