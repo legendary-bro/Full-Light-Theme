@@ -1,0 +1,72 @@
+.channel span,.guild-channels header,.app .guilds .friends-online,.private-channels header{color:#8a8e94!important;}
+.app .guild-inner,.guilds-wrapper .guilds-add,.guilds-wrapper .guild-separator:after{background:#ccc!important;transition:background .16s;;}
+.app .guild:hover .guild-inner,.guilds-wrapper .guilds-add:hover{background:rgb(114,137,218)!important;}
+.channels-wrap > [class*="container-"]:first-of-type,.private-channels {background: #ebebeb !important;}
+.channels-wrap > [class*="container"]:first-of-type header,.search-bar {box-shadow:none!important;}
+.channels-wrap > [class*="container-"] {border-color:#f3f3f3;margin-bottom:0;}
+.channels-wrap > [class*="container-"] [class*="button"] {filter:invert() hue-rotate(180deg) saturate(400%);}
+.channels-wrap > [class*="container-"] [class*="button"]:hover {background-color:rgba(120,120,120,.3);}
+.channels-wrap > [class*="container-"] [class*="button"]:active {background-color:rgba(100,100,100,.3);}
+.channels-wrap > [class*="container-"] [class*="button"]:nth-child(3):active {background-color:rgba(165,165,165,.3);}
+.channels-wrap > [class*="container-"] [class*="button"]:nth-child(3):hover {opacity:.9}
+.channels-wrap > [class*="container-"] [class*="button"]:nth-child(3) {filter:unset;opacity:.6;}
+.channels-wrap > [class*="container-"] [class*="button"] svg {opacity:1!important;}
+[class*="contentHoveredText"],.private-channels .channel:hover a {background-color:rgba(79,84,92,.12);}
+[class*="contentSelectedText"],[class*="contentSelectedVoice"]:active,[class*="contentHoveredVoice"]:active,[class*=".userHovered"]:active,.private-channels .channel.selected a {background-color:rgba(79,84,92,.22);}
+.private-channels .channel:hover .status {border-color:#d8d9da;}
+.private-channels .channel.selected .status {border-color:#c9c1cc;}
+.account .btn-settings:after,.private .close,.channel-arrow,.hideServersChannels{filter:invert(66%);}
+.guilds-wrapper .guilds .guild.unread:before,.guilds-wrapper .guilds .guild.selected:before,.private-channels .channel .icon-friends,.channels-wrap [class*="Text-"] [class*="unread-"]{filter:invert();opacity:.42!important;}
+.channels-wrap > [class*="container-"] svg:not([name=ArrowDown]):not([name=ArrowUp]) {filter:brightness();opacity:.42!important}
+.channels-wrap > [class*="container-"] [class*="elected"] svg,.channels-wrap > [class*="container-"] [class*="flex"] svg:hover {filter:invert();opacity:.6;}
+.channel-arrow:hover{background-color:rgba(0,0,0,.4)!important;}
+#app-mount .scroller-wrap .scroller::-webkit-scrollbar-thumb,#app-mount .ui-scroller-wrap .scroller::-webkit-scrollbar-thumb {border: 3px solid #FFF;background: #7289EA;}
+.channels-wrap [class*="scroller"] div.scroller::-webkit-scrollbar-thumb {border:1px #ebebeb solid!important;background:#d8d8d8!important;}
+.scroller-wrap .messages::-webkit-scrollbar-thumb {border-width:3px!important;}
+.scroller-wrap .channel-members::-webkit-scrollbar-thumb {border:3px solid #f3f3f3!important;}
+.channels-wrap > [class*="container-"] [class*="containerDefault"]:hover [class*="ext"] [class*="name"],.channels-wrap > [class*="container-"] [class*="containerDefault"] [class*="ext"] [class*="SelectedText"],.channels-wrap > [class*="container-"] [class*="containerDefault"]:hover [class*="oice"],.channels-wrap > [class*="container-"] [class*="containerDefault"] [class*="elected"],.channels-wrap > [class*="container-"] [class*="containerDefault"] [class*="nread"],.channels-wrap > [class*="container-"] [class*="containerDefault"] :-webkit-any([class*="nameHovered"],[class*="nameSpeaking"]),.channels-wrap > [class*="container-"] {color:#4f545c;}
+.channels-wrap [class*="uted"] {color:#c8c8c8;}
+.channels-wrap > [class*="container-"] [class*="rtc"] ~ [class*="channel"] {opacity:.6}
+.channels-wrap > [class*="container-"] [class*="rtc"] ~ [class*="channel"]:hover {opacity:.9}
+.channels-wrap > [class*="container-"] [style] > [class*="wrapper"] {background:#ccc;font-weight:bold}
+.guild-channels .channel a,#rtc-connection .rtc-connection-channel:hover {opacity: .65;}
+.search-bar .search-bar-inner{background:#fdfdfd;}
+.search-bar [placeholder] {filter:brightness();}
+.channels-wrap > [class*="container"] .status {border-color:#e4e4e4;}
+.private-channels .status {border-color:#ebebeb;}
+.private-channels .channel .icon-friends {background-color:#000;border-radius:4px;opacity:.5}
+.channels-wrap > [class*="container"]:first-of-type span, .title-wrap .topic,.account {text-shadow: 1px 1px 1px rgba(30,30,38,.1);}
+.chat>.title-wrap {background:#fff;}
+.channels-wrap > [class*="container"]:first-of-type span,.channels-wrap > [class*="container-"] [class*="channel-"],.guilds-wrapper .guilds .guild:not(:hover) .guild-inner a,.private-channels .channel a div:not(.badge) {color:#4f545c!important;}
+.guilds-wrapper .guilds .friends-icon:before {content:'';display:block;width:100%;height:100%;background:inherit;transition:.1s;pointer-events:none;}
+.guilds .guild:not(:hover) .friends-icon:before{filter:invert(.6);}
+.search-bar,#friends .friends-header,.channels-wrap > [class*="container"]:first-of-type header,.channels-wrap > [class*="container"]:first-of-type header:hover,.channels-wrap > [class*="container"]:first-of-type.popout-open header,.channels-wrap > [class*="container-"] {background: #e4e4e4;}
+.channel-pins .message-group,.guilds, .guilds-wrapper{background-color: #F3F3F3;}
+.content-region .CodeMirror, .content-region .cm-s-material .CodeMirror-gutters, #bd-customcss-detach-container .CodeMirror, #bd-customcss-detach-container .cm-s-material .CodeMirror-gutters {background:#fafafa!important;}
+.content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {background:#f5f5f5;color:#72767d;box-shadow:0 1px 0 0 #eee inset;}
+.ui-standard-sidebar-view #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button{min-width: 60px;min-height: 32px;color: #fff;background-color: #7289da!important;border:none!important;border-radius:3px!important;}
+.ui-standard-sidebar-view #bd-customcss-attach-controls button:not(:last-of-type), .bd-detached-css-editor #bd-customcss-attach-controls button:not(:last-of-type){margin-right:8px;}
+#bd-customcss-detach-controls-button span {display:block;margin:4px 4px 4px 0!important;}
+.content-region .CodeMirror-simplescroll-vertical div, .content-region .CodeMirror-simplescroll-horizontal div, #bd-customcss-detach-container .CodeMirror-simplescroll-vertical div, #bd-customcss-detach-container .CodeMirror-simplescroll-horizontal div{background:#ccc!important;}
+#bd-customcss-detach-container{background:#ededed;padding:4px 8px;border-top:56px solid #fff;}
+.bd-detached-editor .app{width:calc(70% - 16px);}
+#bd-customcss-detach-editor,#bd-customcss-detach-container #bd-customcss-attach-controls {box-shadow: 0 4px 8px rgba(60,60,60,.12)}
+.ui-standard-sidebar-view .bda-slist li,.ui-standard-sidebar-view .bda-slist li:nth-child(odd){background-color: #f8f9f9;border-color: #dcddde;margin:4px 0;border-width: 1px;border-style: solid;border-radius: 5px;}
+.bda-slist .bda-name {color: hsla(218,5%,47%,.6);}
+.ui-standard-sidebar-view .bda-slist .bda-description{color: #4f545c;border-top:unset;min-height:74px;max-height:74px;margin-top:2px}
+.bda-slist .bda-left {margin:8px 2px;}
+.bda-right .ui-switch-wrapper {margin:0 0 0 5px;}
+.ui-standard-sidebar-view .bda-slist .bda-right button {margin:5px 0 0 -50px;}
+#bd-settings-sidebar .ui-tab-bar-header {color:#b9bbbe}
+#bd-settings-sidebar .ui-tab-bar-item {color:#72767d;}
+#bd-settings-sidebar .ui-tab-bar-item:not(.selected):hover {color:#4f545c;background:rgba(79,84,92,.1)}
+#bd-settingspane-container .default > .ui-flex {padding:20px 0 14px 0;border-bottom:1px solid hsla(216,4%,74%,.3);}
+#bd-settingspane-container h3 {flex:1 1 auto;line-height:24px;margin:0 10px 0 0;font-weight:500}
+#bd-settingspane-container label {margin:0 0 0 10px;}
+#bd-settingspane-container .default > .ui-flex div+div {font-size:14px;color:hsla(218,5%,47%,.6);font-weight:500;margin-top:4px;line-height:20px}
+#bd-settingspane-container .scroller div > .h2 {font-size:16px;font-weight:600;color:#4f545c;text-transform:uppercase;}
+#bd-settingspane-container .ui-switch-item h3 {color:#4f545c}
+#bd-settingspane-container .ui-switch-item .style-description {border-bottom:unset;}
+
+#pubslayerroot .layer div div {display: none}
+#pubslayerroot .layer .ui-standard-sidebar-view:before {content:"Public server list on BetterDiscord still needs to be fixed. press ESC to exit this window";display:block;font-size:24px;text-align:center;vertical-align:middle;line-height:100vh;width:100%;height:100%;background:#fff;color:#000;}
