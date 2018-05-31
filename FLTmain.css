@@ -34,7 +34,7 @@
 .scroller-wrap .channel-members::-webkit-scrollbar-thumb {border:3px solid #f3f3f3!important;}
 [class*=channels-] > [class*="container-"] [class*="containerDefault"]:hover>div:not([class*="Selected"]) [class*="ext"] [class*="name"],[class*=channels-] > [class*="container-"] [class*="containerDefault"]:hover [class*="oice"],[class*=channels-] > [class*="container-"] [class*="containerDefault"] [class*="nread"],[class*=channels-] > [class*="container-"] [class*="containerDefault"] :-webkit-any([class*="nameHovered"],[class*="nameSpeaking"]),[class*=channels-] > [class*="container-"] {color:#4f545c;}
 [class*=channels-] [class*="uted"] {color:#c8c8c8;}
-[class*=channels-] > [class*="container-"] [class*="rtc"] ~ [class*="channel"] {opacity:.6}
+[class*=channels-] > [class*="container-"] [class*="rtc"] ~ [class*="channel"],.private-channels .channel .channel-name{opacity:.6}
 [class*=channels-] > [class*="container-"] [class*="rtc"] ~ [class*="channel"]:hover {opacity:.9}
 [class*=channels-] > [class*="container-"] [style] > [class*="wrapper"] {background:#ccc;font-weight:bold}
 .guild-channels .channel a,#rtc-connection .rtc-connection-channel:hover {opacity: .65;}
