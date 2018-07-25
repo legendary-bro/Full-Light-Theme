@@ -5,13 +5,13 @@
 #app-mount [class*=channels-] > [class*="container-"]:first-of-type,#app-mount .private-channels {background: #f3f3f3;}
 [class*=channels-] > [class*="container"]:first-of-type header,.private-channels .search-bar{box-shadow:0 1px 0 rgba(0,0,0,.01), 0 2px 0 rgba(0,0,0,.01)}
 [class*=channels-] > [class*="container-"] {border-color:#f3f3f3;margin-bottom:0;}
-[class*=channels-] > [class*="container-"] [class*="button"]{filter:invert() hue-rotate(180deg) saturate(400%);}
-[class*=channels-] > [class*="container-"] [class*="button"]:hover {background-color:rgba(120,120,120,.3);}
-[class*=channels-] > [class*="container-"] [class*="button"]:active {background-color:rgba(100,100,100,.3);}
-[class*=channels-] > [class*="container-"] [class*="button"]:nth-child(3):active {background-color:rgba(165,165,165,.3);}
-[class*=channels-] > [class*="container-"] [class*="button"]:nth-child(3):hover {opacity:.9}
-[class*=channels-] > [class*="container-"] [class*="button"]:nth-child(3) {filter:unset;opacity:.6;}
-[class*=channels-] > [class*="container-"] [class*="button"] svg {opacity:1!important;}
+[class*=channels-] > [class*="container-"] button[class*="button"]{filter:invert() hue-rotate(180deg) saturate(400%);}
+[class*=channels-] > [class*="container-"] button[class*="button"]:hover {background-color:rgba(120,120,120,.3);}
+[class*=channels-] > [class*="container-"] button[class*="button"]:active {background-color:rgba(100,100,100,.3);}
+[class*=channels-] > [class*="container-"] button[class*="button"]:nth-child(3):active {background-color:rgba(165,165,165,.3);}
+[class*=channels-] > [class*="container-"] button[class*="button"]:nth-child(3):hover {opacity:.9}
+[class*=channels-] > [class*="container-"] button[class*="button"]:nth-child(3) {filter:unset;opacity:.6;}
+[class*=channels-] > [class*="container-"] button[class*="button"] svg {opacity:1!important;}
 [class*="contentHoveredText"]{background-color:rgba(79,84,92,.08);}
 [class*="contentSelectedVoice"]:active,[class*="contentHoveredVoice"]:active,[class*=".userHovered"]:active{background-color:rgba(79,84,92,.22);}
 .private-channels .channel:hover a{background-color: rgba(221, 222, 223, 0.3);color:#000;}
@@ -47,9 +47,8 @@
 .private-channels .channel .icon-friends {background-color:#000;border-radius:4px;opacity:.5}
 [class*=channels-] > [class*="container"]:first-of-type span, .title-wrap .topic,.account {text-shadow: 1px 1px 1px rgba(30,30,38,.1);}
 .chat>.title-wrap {background:#fff;}
-[class*=channels-] > [class*="container"]:first-of-type span,[class*=channels-] > [class*="container-"] [class*="channel-"],.guilds-wrapper .guilds .guild:not(:hover):not(.selected) .guild-inner a,.private-channels .channel a div:not(.badge) {color:#4f545c!important;}
-.guilds-wrapper .guilds .friends-icon:before {content:'';display:block;width:100%;height:100%;background:inherit;transition:.1s;pointer-events:none;}
-.guilds .guild:not(:hover) .friends-icon:before{filter:invert(.6);}
+[class*=channels-] > [class*="container"]:first-of-type span,[class*=channels-] > [class*="container-"] [class*="channel-"],.guilds-wrapper .guilds .guild:not(:hover):not(.selected) .guild-inner [class*="noIcon"],.private-channels .channel a div:not(.badge) {color:#4f545c!important;}
+.guilds .guild:not(:hover) [href="/channels/@me"] svg{color:#7289da;}
 [class*=channels-] > [class*="container"]:first-of-type.popout-open header,[class*=channels-] > [class*="container-"] {background:#eaeaea;}
 .channel-pins .message-group,.layers > .layer > [class*=flex-][class*=container-],[class*=flex-] > [class*=channels-]{background-color: #F3F3F3;}
 .guilds, .guilds-wrapper,#app-mount,[class*=layer]>[class*=container]{background:#ebebeb}
@@ -80,6 +79,4 @@
 #bd-settingspane-container .scroller div > .h2 {font-size:16px;font-weight:600;color:#4f545c;text-transform:uppercase;}
 #bd-settingspane-container .ui-switch-item h3 {color:#4f545c}
 #bd-settingspane-container .ui-switch-item .style-description {border-bottom:unset;}
-
-#pubslayerroot .layer div div {display: none}
-#pubslayerroot .layer .ui-standard-sidebar-view:before {content:"Public server list on BetterDiscord still needs to be fixed. press ESC to exit this window";display:block;position:fixed;top:0;left:0;font-size:24px;text-align:center;vertical-align:middle;line-height:100vh;width:100%;height:100%;background:#f3f3f3;color:#000;}
+#bd-pub-button{background:#fff;color:#4f545c;}
